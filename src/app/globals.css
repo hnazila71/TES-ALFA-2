@@ -1,26 +1,53 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Diubah menjadi putih */
+    font-family: 'Arial', sans-serif;
+}
+
+.content-container {
+    background-color: #ffffff; /* Diubah menjadi putih */
+    border-top: 2px solid #e0e0e0;
+    border-left: 2px solid #e0e0e0;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    padding: 1.5rem;
+}
+
+.page-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.report-title {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 0.8rem;
+}
+
+.report-table th {
+    background-color: #D9E2F3;
+    border: 1px solid black;
+    padding: 5px 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.report-table td {
+    border: 1px solid black;
+    padding: 5px 8px;
+    background-color: white;
 }
