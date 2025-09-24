@@ -1,7 +1,7 @@
 cara menggunakan
 1. Clone Github ini
 2. buat file .env
-3. 'npm run dev' di terminal
+3. `npm run dev` di terminal
 
 
 
