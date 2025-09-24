@@ -1,3 +1,10 @@
+cara menggunakan
+1. Clone Github ini
+2. buat file .env
+3. npm run dev di terminal
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,7 +12,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
+
 # or
 yarn dev
 # or
